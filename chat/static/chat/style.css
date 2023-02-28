@@ -1,0 +1,97 @@
+h1{
+    text-align: center;
+    font-size: 2rem;
+    color: hsl(9, 100%, 64%);
+    font-family: Lucida Handwriting;
+}
+
+form {
+    text-align: center;
+}
+
+div#title {
+    margin-top: 15%;
+}
+
+h1#title2 {
+    margin-top: 5%;
+}
+
+label {
+    color: darkorchid;
+    font-family: Lucida Handwriting;
+}
+
+div#container {
+    border-radius: 2px solid black;
+}
+
+p {
+    text-align: center;
+    padding: 1%;
+}
+
+.error {
+    color: red;
+}
+
+input#name {
+    padding: 0.3%;
+}
+
+input#message {
+    height: 5%;
+    width: 40%;
+    border-width: 1px;
+    border-radius: 0.9rem;
+    padding: 0.7%;
+}
+
+div#sending-message-container {
+    text-align: center;
+}
+
+div#message-container {
+    border-width: 1px;
+    border-color: rgb(96, 5, 5);
+    border-style: solid;
+    width: 100vh;
+    height: 70vh;
+    overflow: auto;
+    margin: 1%;
+    border-radius: 2rem;
+    padding: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    word-wrap: break-word;   
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+@media screen and (max-width: 600px) {
+    div#message-container {
+        width: 60vh;
+        height: 30vh;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    div#message-container {
+        width: 40vh;
+        height: 20vh;
+        padding: 10px;
+    }
+}
+
+div.my_message {
+    float: right;
+}
+
+div.others_messages {
+    float: left;
+}
+
+b {
+    color:rgb(96, 5, 5);
+}
