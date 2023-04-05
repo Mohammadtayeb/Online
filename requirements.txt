@@ -1,3 +1,4 @@
 django
--U channels["daphne"]
+channels
+daphne
 channels_redis
